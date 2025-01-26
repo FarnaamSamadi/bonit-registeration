@@ -71,8 +71,6 @@ export default function useValidate<T extends ZodTypeAny>(
 }
 
 const MOBILE_REGEX = /^(\+98|98|0098|0)?9\d{9}$/
-const MAX_FILE_SIZE = 1 * 1024 * 1024 // 5 MB
-const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/gif']
 
 export const userSchema = z.object({
   fullName: z

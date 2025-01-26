@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@persian-tools/persian-tools':
-        specifier: ^3.5.2
-        version: 3.5.2
       '@vueuse/core':
         specifier: ^11.1.0
         version: 11.1.0(vue@3.5.5(typescript@5.6.2))
@@ -20,27 +17,12 @@ importers:
       axios:
         specifier: ^1.7.7
         version: 1.7.7
-      date-fns:
-        specifier: ^3.6.0
-        version: 3.6.0
-      date-fns-jalali:
-        specifier: 3.6.0-1
-        version: 3.6.0-1
-      lucide-vue-next:
-        specifier: ^0.474.0
-        version: 0.474.0(vue@3.5.5(typescript@5.6.2))
-      pinia:
-        specifier: ^2.2.2
-        version: 2.2.2(typescript@5.6.2)(vue@3.5.5(typescript@5.6.2))
       radix-vue:
         specifier: ^1.9.6
         version: 1.9.6(vue@3.5.5(typescript@5.6.2))
       swiper:
         specifier: ^11.1.14
         version: 11.1.14
-      ua-parser-js:
-        specifier: ^1.0.39
-        version: 1.0.39
       vue:
         specifier: 3.5.5
         version: 3.5.5(typescript@5.6.2)
@@ -84,6 +66,9 @@ importers:
       npm-run-all2:
         specifier: ^6.2.3
         version: 6.2.3
+      prettier:
+        specifier: ^3.4.2
+        version: 3.4.2
       sass:
         specifier: ^1.79.4
         version: 1.79.4
@@ -540,10 +525,6 @@ packages:
 
   '@one-ini/wasm@0.1.1':
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
-
-  '@persian-tools/persian-tools@3.5.2':
-    resolution: {integrity: sha512-m5pRaVNYIMfe5S+f1Y+mX4ULgk9SLhfv5zkT80xo9c31rQEZ25OEl3WZqHmmVSXSfSXS6jDizW4qjysaqsC7cw==}
-    engines: {node: '>=14', npm: '>=7.0.0'}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1067,12 +1048,6 @@ packages:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
     engines: {node: '>=18'}
 
-  date-fns-jalali@3.6.0-1:
-    resolution: {integrity: sha512-f4FlXArA3kE0uW27y/2AJjRevb6x7DaLMjJfxw7CEXC+XK/JXbZ/WVHND5l1zq2VZsssRrXRWWS0u9NGwawVsQ==}
-
-  date-fns@3.6.0:
-    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
-
   de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
 
@@ -1173,10 +1148,6 @@ packages:
   fast-glob@3.3.2:
     resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
     engines: {node: '>=8.6.0'}
-
-  fastest-levenshtein@1.0.16:
-    resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
-    engines: {node: '>= 4.9.1'}
 
   fastq@1.17.1:
     resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
@@ -1484,11 +1455,6 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-vue-next@0.474.0:
-    resolution: {integrity: sha512-bQaSBjfJ33xiPQCxCf4JD3rcUgZFgWZzxSY8SScNa4Mcq2vWGlbvQx6icTL1UXRqsxzfoT13RXawePSmgg4iWw==}
-    peerDependencies:
-      vue: '>=3.0.1'
-
   magic-string@0.30.11:
     resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
 
@@ -1678,18 +1644,6 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  pinia@2.2.2:
-    resolution: {integrity: sha512-ja2XqFWZC36mupU4z1ZzxeTApV7DOw44cV4dhQ9sGwun+N89v/XP7+j7q6TanS1u1tdbK4r+1BUx7heMaIdagA==}
-    peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.3.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-      typescript:
-        optional: true
-
   pkg-types@1.2.0:
     resolution: {integrity: sha512-+ifYuSSqOQ8CqP4MbZA5hDpb97n3E8SVWdJe+Wms9kj745lmd3b7EZJiqvmLwAlmRfjrI7Hi5z3kdBJ93lFNPA==}
 
@@ -1699,6 +1653,11 @@ packages:
   postcss@8.4.47:
     resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
     engines: {node: ^10 || ^12 || >=14}
+
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   proto-list@1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
@@ -1915,10 +1874,6 @@ packages:
   typescript@5.6.2:
     resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
-    hasBin: true
-
-  ua-parser-js@1.0.39:
-    resolution: {integrity: sha512-k24RCVWlEcjkdOxYmVJgeD/0a1TiSpqLg+ZalVGV9lsnr4yqu0w7tX/x2xX6G4zpkgQnRf89lxuZ1wsbjXM8lw==}
     hasBin: true
 
   ufo@1.5.4:
@@ -2559,10 +2514,6 @@ snapshots:
     optional: true
 
   '@one-ini/wasm@0.1.1': {}
-
-  '@persian-tools/persian-tools@3.5.2':
-    dependencies:
-      fastest-levenshtein: 1.0.16
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -3210,10 +3161,6 @@ snapshots:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.0.0
 
-  date-fns-jalali@3.6.0-1: {}
-
-  date-fns@3.6.0: {}
-
   de-indent@1.0.2: {}
 
   debug@4.3.7:
@@ -3347,8 +3294,6 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
     optional: true
-
-  fastest-levenshtein@1.0.16: {}
 
   fastq@1.17.1:
     dependencies:
@@ -3657,10 +3602,6 @@ snapshots:
       yallist: 3.1.1
     optional: true
 
-  lucide-vue-next@0.474.0(vue@3.5.5(typescript@5.6.2)):
-    dependencies:
-      vue: 3.5.5(typescript@5.6.2)
-
   magic-string@0.30.11:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -3828,14 +3769,6 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  pinia@2.2.2(typescript@5.6.2)(vue@3.5.5(typescript@5.6.2)):
-    dependencies:
-      '@vue/devtools-api': 6.6.4
-      vue: 3.5.5(typescript@5.6.2)
-      vue-demi: 0.14.10(vue@3.5.5(typescript@5.6.2))
-    optionalDependencies:
-      typescript: 5.6.2
-
   pkg-types@1.2.0:
     dependencies:
       confbox: 0.1.7
@@ -3854,6 +3787,8 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.1.0
       source-map-js: 1.2.1
+
+  prettier@3.4.2: {}
 
   proto-list@1.2.4: {}
 
@@ -4080,8 +4015,6 @@ snapshots:
       fsevents: 2.3.3
 
   typescript@5.6.2: {}
-
-  ua-parser-js@1.0.39: {}
 
   ufo@1.5.4: {}
 

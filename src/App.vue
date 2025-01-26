@@ -5,9 +5,8 @@ import { Toaster } from 'vue-sonner'
 </script>
 
 <template>
-    <Toaster dir="rtl" />
+  <Toaster dir="rtl" />
   <RouterView />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
