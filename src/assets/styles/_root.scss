@@ -1,0 +1,48 @@
+:root {
+  --max-w: 1000px;
+  --main-bg: #f8faff;
+  --element-bg: #eee;
+  --button-bg : #ebebeb;
+  --home-menu-icon-bg: #f3f5f9;
+  --home-menu-icon-bg-active: #deeeea;
+  --last-course-slider-bg : #f4f5f9;
+  --last-course-slide: #fff;
+  --last-course-border: #ecefe9;
+  --slider-button : #77c094;
+  --home-course-slide :#fff;
+  --slide-border : #eeeeee;
+  --footer-bg: #f3f5f9;
+  --text: black;
+  --accordion-bg : #f1f3f8;
+  --question-border : #e0e0e0;
+  --accordion-border : none;
+  --wallet-bg : #f5f5f5;
+  --whatsapp-button : #daebe5;
+  --input-bg : #eee;
+  --img-bg : #eee;
+}
+
+/* Override dark mode preferences */
+:root[color-scheme='dark'] {
+    --main-bg:   #18191d;
+    --element-bg : #141414;
+    --button-bg : #202124;
+    --home-menu-icon-bg: #202124;
+    --home-menu-icon-bg-active: #2b3a35;
+    --last-course-slider-bg : #202124;
+    --last-course-slide: #18191d;
+    --last-course-border: #292a2b;
+    --slider-button : #77c094;
+    --home-course-slide :#202124;
+    --slide-border : none;
+    --footer-bg : #202124;
+    --text: #fff;
+    --accordion-bg : #202224;
+    --question-border : #454545;
+    --accordion-border : #454545;
+    --wallet-bg : #000;
+    --whatsapp-button : #32403b;
+    --input-bg : #000;
+    --img-bg : #fff;
+}
+

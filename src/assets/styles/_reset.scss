@@ -1,0 +1,140 @@
+/**
+   * 1. Set full height
+   * 2. Set font-size in order to 1rem = 10px
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   * 3. Remove gray overlay on links for iOS.
+   */
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+/**
+   * 1. Reset box-model.
+   * 2. Remove border-width
+   * 3. Inherit the font
+   */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font: inherit;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+     * 1. Set a minimum height
+     * 2. Correct the line height in all browsers.
+     * 3. Improve text and font rendering
+     */
+body {
+  min-height: 100vh;
+  line-height: 1.15;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+}
+
+/* Remove the gray background on active links */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove heading default fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+i,
+a,
+label,
+button {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+/* Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Lists (enumeration) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Clickable labels */
+label[for] {
+  cursor: pointer;
+}
+
+/* Inherit fonts for inputs and buttons */
+button,
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  background: transparent;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+}
+
+/* Correct the inability to style clickable types in iOS and Safari */
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  cursor: pointer;
+}
+
+button[disabled],
+[type='button'][disabled],
+[type='reset'][disabled],
+[type='submit'][disabled] {
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+i,
+a,
+label,
+button {
+  user-select: none;
+}
+/* Hide scrollbar on WebKit browsers (e.g., Chrome, Safari) */
+body::-webkit-scrollbar {
+  @media(max-width:600px){
+    width: 0px;
+    height: 0px;
+  }
+
+}
